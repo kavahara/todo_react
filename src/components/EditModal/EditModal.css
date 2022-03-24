@@ -1,0 +1,32 @@
+.main-modal{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #444;
+    opacity: 95%;
+    z-index:3;
+}
+
+.inner-modal{
+    width: 70vw;
+    height: 40vw;
+    background-color: #fff;
+    margin: .5vw auto;
+    text-align: center;
+    background-color:#DAD2CA;
+}
+
+.close{
+    float: right;
+}
+
+.inp-edit{
+    height:12vw;
+    width:55vw;
+    margin: 1em auto;
+    font-size: 2.5em;
+    text-align:start;
+    flex-wrap:wrap;
+}
